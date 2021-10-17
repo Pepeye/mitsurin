@@ -28,3 +28,8 @@ serde_json = "1.0.68"
 # errors
 anyhow = "1.0.44"
 thiserror = "1.0.29"
+reqwest = { version = "0.11", features = ["json"] }
+
+fakeit = "1.1.1"
+
+[dev-dependencies]
